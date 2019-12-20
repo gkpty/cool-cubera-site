@@ -4,26 +4,25 @@ html,body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-size: 1.2em;
 }
 
 body{
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
-  .wavy-bg-lg{
-    min-width: 100%;
-    min-height: 52vh;
-    position: absolute;
-    z-index: -1;
-  }
+.wavy-bg-lg{
+  min-width: 100%;
+  min-height: 39vh;
+  position: relative;
+  z-index: -1;
+}
 
-  .wavy-bg-sm {
-    min-width: 100%;
-    min-height: 70vh;
-    position: absolute;
-    z-index: -1;
-  }
+.wavy-bg-sm {
+  min-width: 100%;
+  min-height: 40vh;
+  position: relative;
+  z-index: -1;
+}
 
 
 /*DEVICE MOKUP*/
@@ -66,10 +65,14 @@ body{
 
 /* iPhone 6 Plus*/
   @media(max-width: 900px){
+    .device-mockup > .device{
+      width: 35%; height: 35%;
+      top: 0; bottom: 0; left: 35%; right: 35%;
+    }
     .device-mockup.iphone6_plus,
   .device-mockup.iphone6_plus.portrait {
     padding-bottom: 201.76%;
-    margin-bottom: -90%;
+    margin-bottom: -120%;
   }
 }
 
