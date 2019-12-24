@@ -6,15 +6,14 @@ html,body {
   overflow-x: hidden;
 }
 
-body{
-  position: relative;
-  z-index: 1;
-}
 .wavy-bg-lg{
-  min-width: 100%;
-  min-height: 39vh;
-  position: relative;
-  z-index: -1;
+    background-image: url(img/wave.svg);
+    background-size: cover;
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 100%;
 }
 
 .wavy-bg-sm {
@@ -81,7 +80,7 @@ body{
   .device-mockup.iphone6_plus,
 .device-mockup.iphone6_plus.portrait {
   padding-bottom: 201.76%;
-  margin-bottom: -60%;
+  margin-bottom: -90%;
 }
 }
 
